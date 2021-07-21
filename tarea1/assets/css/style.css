@@ -1,0 +1,103 @@
+/* Estilos generales */
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #eee;
+}
+
+/* Clases personalizadas */
+
+.text-white {
+	/* Color de texto */
+	color: #fff;
+}
+
+.text-green {
+	/* Color de texto */
+	color: rgb(3, 97, 3);
+}
+
+.text-dark {
+	/* Color de texto */
+	color: #000;
+}
+
+.text-hover-green:hover {
+	/* Color de texto */
+	color: rgb(3, 97, 3);
+}
+
+.bg-red {
+	/* Color de fondo */
+	background-color: rgb(182, 3, 3);
+}
+
+.bg-green {
+	/* Color de fondo */
+	background-color: rgb(3, 97, 3);
+}
+
+/* Estilos del ejercicio 1 a */
+
+.ejercicio1 h1 {
+	/* Tamaño de fuente */
+	font-size: 35px;
+	/* Alinea el texto al medio */
+	text-align: center;
+	/* Margen interior */
+	padding: 20px 0px;
+}
+
+.ejercicio1 h2 {
+	/* Para que solo ocupe el tamaño del texto */
+	display: inline-block;
+	/* Tamaño de fuente */
+	font-size: 20px;
+	/* Margen interior */
+	padding: 20px;
+	/* Margen exterior */
+	margin: 10px 0px;
+}
+
+.ejercicio1 img {
+	/* Display block para que no se quede al lado del subtitulo */
+	display: block;
+	/* Para centrar la imagen en la pantalla */
+	margin: 0px auto;
+	/* Margen inferior */
+	margin-bottom: 10px;
+	/* Ancho */
+	width: 400px;
+	/* Alto */
+	height: 400px;
+}
+
+.ejercicio1 p {
+	/* Tamaño de fuente */
+	font-size: 20px;
+	/* Margen interior */
+	padding: 20px;
+	/* Margen inferior */
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.ejercicio1 a {
+	text-decoration: none;
+	font-weight: bolder;
+	border: 3px solid #000;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+/* Estilos del footer */
+footer {
+	height: 50px;
+	background-color: #333;
+	text-align: center;
+	padding: 10px;
+	margin-top: 20px;
+	line-height: 50px;
+	font-weight: bolder;
+}
