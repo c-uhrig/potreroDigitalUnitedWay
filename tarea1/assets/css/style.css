@@ -84,8 +84,11 @@
 }
 
 .ejercicio1 a {
+	/* Remueve el subrayado del link */
 	text-decoration: none;
+	/* Cambia el peso de la fuente */
 	font-weight: bolder;
+	/* Agrega un borde */
 	border: 3px solid #000;
 	padding: 10px;
 	margin-left: 20px;
